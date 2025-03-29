@@ -694,3 +694,83 @@ java.util.ConcurrentModificationException: null
 [08:45:46] [Server thread/INFO]: [1eaf_f411s: Teleported nuts2609 to 1eaf_f411s]
 [08:49:14] [Server thread/INFO]: 1eaf_f411s lost connection: Disconnected
 [08:49:14] [Server thread/INFO]: 1eaf_f411s left the game
+[09:01:18] [Server thread/INFO]: nuts2609 fell from a high place
+[09:01:37] [Server thread/INFO]: nuts2609 lost connection: Disconnected
+[09:01:37] [Server thread/INFO]: nuts2609 left the game
+[10:14:20] [User Authenticator #4/INFO]: UUID of player 1eaf_f411s is 038c22be-d95a-3e11-983b-d5dc2fb731c2
+[10:14:20] [Server thread/INFO]: 1eaf_f411s joined the game
+[10:14:20] [Server thread/INFO]: 1eaf_f411s[/[0:0:0:0:0:0:0:1%0]:53834] logged in with entity id 65833 at ([world]287.2074754355985, 64.80257356872595, 311.1903416389149)
+[10:14:49] [Server thread/INFO]: 1eaf_f411s issued server command: /give @s hopper 4
+[10:14:49] [Server thread/INFO]: [1eaf_f411s: Gave 4 [Hopper] to 1eaf_f411s]
+[10:17:13] [User Authenticator #5/INFO]: UUID of player nuts2609 is dc1a1f72-d475-3953-976b-eb64becbe67f
+[10:17:14] [Server thread/INFO]: nuts2609 joined the game
+[10:17:14] [Server thread/INFO]: nuts2609[/[0:0:0:0:0:0:0:1%0]:52956] logged in with entity id 66520 at ([world]1992.418323216787, -21.0, 1670.699999988079)
+[10:17:47] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
+[10:17:47] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
+[10:19:36] [Server thread/INFO]: 1eaf_f411s issued server command: /
+[10:19:49] [Server thread/INFO]: 1eaf_f411s issued server command: /give nuts2609 minecraft:ender_eye 291783
+[10:19:55] [Server thread/INFO]: 1eaf_f411s issued server command: /give nuts2609 minecraft:ender_eye 6400
+[10:19:55] [Server thread/INFO]: [1eaf_f411s: Gave 6400 [Eye of Ender] to nuts2609]
+[10:20:00] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
+[10:20:28] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
+[10:20:28] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
+[10:20:40] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative nuts2609
+[10:20:40] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Creative Mode]
+[10:25:09] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
+[10:25:09] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
+[10:25:14] [Server thread/INFO]: 1eaf_f411s issued server command: /op nuts2609
+[10:25:14] [Server thread/INFO]: [1eaf_f411s: Made nuts2609 a server operator]
+[10:25:22] [Server thread/INFO]: 1eaf_f411s issued server command: /deop nuts2609
+[10:25:22] [Server thread/INFO]: [1eaf_f411s: Made nuts2609 no longer a server operator]
+[10:25:40] [Server thread/INFO]: nuts2609 has made the advancement [Eye Spy]
+[10:27:45] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609
+[10:27:45] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to nuts2609]
+[10:27:45] [Server thread/INFO]: 1eaf_f411s has made the advancement [Eye Spy]
+[10:32:49] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator
+[10:32:49] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Spectator Mode]
+[10:33:23] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
+[10:33:23] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
+[10:34:17] [Server thread/INFO]: 1eaf_f411s was blown up by Creeper
+[10:34:22] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1934 -41.5 1685
+[10:34:22] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1934.500000, -41.500000, 1685.500000]
+[10:36:15] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609
+[10:36:15] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to nuts2609]
+[10:37:22] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1946 -53.5 1679
+[10:37:22] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1946.500000, -53.500000, 1679.500000]
+[10:37:26] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 247 71.5 225
+[10:37:26] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 247.500000, 71.500000, 225.500000]
+[10:37:37] [Server thread/INFO]: nuts2609 has made the advancement [Hot Stuff]
+[10:38:38] [Server thread/INFO]: 1eaf_f411s lost connection: Disconnected
+[10:38:38] [Server thread/INFO]: 1eaf_f411s left the game
+[10:38:41] [Server thread/INFO]: Stopping the server
+[10:38:41] [Server thread/INFO]: Stopping server
+[10:38:41] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[10:38:41] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:38:41] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
+[10:38:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[10:38:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[10:38:41] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
+[10:38:41] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
+[10:38:41] [Server thread/INFO]: Saving players
+[10:38:41] [Server thread/INFO]: nuts2609 lost connection: Server closed
+[10:38:41] [Server thread/INFO]: nuts2609 left the game
+[10:38:41] [Server thread/INFO]: Saving worlds
+[10:38:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1157 block chunks, 1059 entity chunks, 0 poi chunks in world 'world' in 1.21s
+[10:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 100 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[10:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.16s
+[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
