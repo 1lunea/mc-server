@@ -128,13 +128,13 @@ settings:
     soul-sand:
       reverse-bubble-column-flow: false
   enchantment:
-    allow-looting-on-shears: false
+    allow-looting-on-shears: true
     anvil:
       allow-inapplicable-enchants: false
-      allow-incompatible-enchants: false
-      allow-higher-enchants-levels: false
+      allow-incompatible-enchants: true
+      allow-higher-enchants-levels: true
       replace-incompatible-enchants: false
-    allow-unsafe-enchant-command: false
+    allow-unsafe-enchant-command: true
     clamp-levels: false
   entity:
     enderman:
@@ -205,7 +205,7 @@ world-settings:
           level-1: 20
           level-2: 30
           level-3: 40
-          level-4: 50
+          level-4: 100
         allow-effects-with-tinted-glass: false
       bed:
         explode: true
@@ -314,7 +314,7 @@ world-settings:
       water:
         infinite-required-sources: 2
       enchantment-table:
-        lapis-persists: false
+        lapis-persists: true
       conduit:
         effect-distance: 16
         mob-damage:

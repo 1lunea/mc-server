@@ -1,179 +1,114 @@
-[06:06:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1021-azure (amd64)
-[06:06:37] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
-[06:06:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:06:37] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GSit-2.2.1.jar'...
-[06:06:37] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/AutoTreeChop-1.6.0.jar'...
-[06:06:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[06:06:38] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/veinminer-paper-2.3.2.jar'...
-[06:06:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GSit-2.2.1.jar' in 1540ms.
-[06:06:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Spawn-2.4.1.jar'...
-[06:06:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Spawn-2.4.1.jar' in 183ms.
-[06:06:39] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/veinminer-paper-2.3.2.jar' in 1553ms.
-[06:06:39] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AutoTreeChop-1.6.0.jar' in 1962ms.
-[06:06:40] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2535ms.
-[06:06:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[06:06:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AutoTreeChop (1.6.0), Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
-[06:06:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06:06:45] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[06:06:45] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[06:06:45] [ServerMain/INFO]: No existing world data, creating new world
-[06:06:46] [ServerMain/INFO]: Loaded 1290 recipes
-[06:06:46] [ServerMain/INFO]: Loaded 1399 advancements
-[06:06:46] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[06:06:46] [Server thread/INFO]: Loading properties
-[06:06:47] [Server thread/INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[06:06:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:06:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:06:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:06:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[06:06:48] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
-[06:06:48] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
-[06:06:48] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
-[06:06:48] [Server thread/WARN]: [Pufferfish] Debug: Java: 21.0.6, test run: true
-[06:06:48] [Server thread/INFO]: Default game type: SURVIVAL
-[06:06:48] [Server thread/INFO]: Generating keypair
-[06:06:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:06:48] [Server thread/INFO]: Using epoll channel type
-[06:06:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:06:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.8.0/kotlinx-serialization-bom-1.8.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.10.1/kotlinx-coroutines-bom-1.10.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.5.1/kotlinx-serialization-json-jvm-1.5.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.5.1/kotlinx-serialization-bom-1.5.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.21/kotlin-stdlib-common-1.8.21.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.5.1/kotlinx-serialization-core-jvm-1.5.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.1/kotlinx-coroutines-core-jvm-1.7.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.1/kotlinx-coroutines-bom-1.7.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.20/kotlin-stdlib-common-1.8.20.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.20/kotlin-stdlib-jdk8-1.8.20.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.20/kotlin-stdlib-1.8.20.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.20/kotlin-stdlib-jdk7-1.8.20.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.pom
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[06:06:49] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[06:06:49] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[06:06:50] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
-[06:06:50] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
-[06:06:50] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[06:06:50] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[06:06:50] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.0
-[06:06:50] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
-[06:06:50] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
-[06:06:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[06:06:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[06:06:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[06:06:51] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
-[06:06:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:06:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:06:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:06:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:06:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:06:52] [Server thread/INFO]: Preparing level "world"
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:06:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[06:07:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:07:12] [Server thread/INFO]: Time elapsed: 6561 ms
-[06:07:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:07:14] [Server thread/INFO]: Time elapsed: 2172 ms
-[06:07:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:07:15] [Server thread/INFO]: Time elapsed: 676 ms
-[06:07:15] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[06:07:15] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[06:07:15] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.0
-[06:07:15] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[06:07:15] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
-[06:07:16] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[06:07:16] [Server thread/INFO]: [spark] Starting background profiler...
-[06:07:16] [Server thread/INFO]: Done preparing level "world" (23.933s)
-[06:07:16] [Server thread/INFO]: Running delayed init tasks
-[06:07:16] [Server thread/INFO]: Done (39.964s)! For help, type "help"
-[06:07:16] [Server thread/INFO]: *************************************************************************************
-[06:07:16] [Server thread/INFO]: This is the first time you're starting this server.
-[06:07:16] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[06:07:16] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[06:07:16] [Server thread/INFO]: *************************************************************************************
-[06:09:39] [User Authenticator #0/INFO]: UUID of player 1eaf_f411s is 038c22be-d95a-3e11-983b-d5dc2fb731c2
-[06:09:40] [Server thread/INFO]: 1eaf_f411s joined the game
-[06:09:40] [Server thread/INFO]: 1eaf_f411s[/[0:0:0:0:0:0:0:1%0]:40108] logged in with entity id 84 at ([world]9.5, 81.0, -51.5)
-[06:09:50] [Server thread/INFO]: Made 1eaf_f411s a server operator
-[06:09:53] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[06:09:53] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[06:10:50] [Server thread/INFO]: 1eaf_f411s has made the advancement [Stone Age]
-[06:11:01] [User Authenticator #1/INFO]: UUID of player nuts2609 is dc1a1f72-d475-3953-976b-eb64becbe67f
-[06:11:02] [Server thread/INFO]: nuts2609 joined the game
-[06:11:02] [Server thread/INFO]: nuts2609[/[0:0:0:0:0:0:0:1%0]:46466] logged in with entity id 806 at ([world]13.5, 79.0, -52.5)
-[06:11:16] [Server thread/INFO]: 1eaf_f411s has made the advancement [Getting an Upgrade]
-[06:11:50] [User Authenticator #1/INFO]: UUID of player AquaaFinaa is 6bbd8f72-e006-3889-98bf-da4aa184a6d1
-[06:11:51] [Server thread/INFO]: AquaaFinaa joined the game
-[06:11:51] [Server thread/INFO]: AquaaFinaa[/[0:0:0:0:0:0:0:1%0]:59350] logged in with entity id 909 at ([world]18.5, 79.0, -45.5)
-[06:11:56] [Server thread/INFO]: nuts2609 fell from a high place
-[06:12:35] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-2 - Starting...
-[06:12:35] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-2 - Start completed.
-[06:13:10] [Server thread/INFO]: AquaaFinaa has made the advancement [Stone Age]
-[06:13:20] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Starting...
-[06:13:20] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-3 - Start completed.
-[06:13:24] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[06:13:24] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[06:13:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:13:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:13:24] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
-[06:13:24] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[06:13:24] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
-[06:13:24] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[06:13:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[06:13:24] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
-[06:13:24] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
-[06:13:25] [Server thread/INFO]: Loaded 1290 recipes
-[06:13:25] [Server thread/INFO]: Loaded 1399 advancements
-[06:13:25] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:13:25] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
-[06:13:25] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
+[10:56:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1021-azure (amd64)
+[10:56:46] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[10:56:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:56:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[10:56:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
+[10:56:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:56:52] [ServerMain/WARN]: Missing data pack file/treecapitator-v4-2.zip
+[10:56:52] [ServerMain/WARN]: Missing data pack file/treecapitator-v4-2
+[10:56:52] [ServerMain/WARN]: Missing data pack file/treecapita
+[10:56:52] [ServerMain/WARN]: Missing data pack file/treecapitator-v3.1.4.zip
+[10:56:52] [ServerMain/INFO]: Found new data pack file/treecapitator-v3.1.4, loading it automatically
+[10:56:53] [ServerMain/INFO]: Loaded 1290 recipes
+[10:56:53] [ServerMain/INFO]: Loaded 1399 advancements
+[10:56:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[10:56:54] [Server thread/INFO]: Loading properties
+[10:56:54] [Server thread/INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[10:56:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:56:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:56:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:56:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[10:56:56] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[10:56:56] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[10:56:56] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[10:56:56] [Server thread/WARN]: [Pufferfish] Debug: Java: 21.0.6, test run: true
+[10:56:56] [Server thread/INFO]: Default game type: SURVIVAL
+[10:56:56] [Server thread/INFO]: Generating keypair
+[10:56:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:56:56] [Server thread/INFO]: Using epoll channel type
+[10:56:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:56:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[10:56:56] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[10:56:56] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
+[10:56:56] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
+[10:56:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[10:56:57] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[10:56:57] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[10:56:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:56:57] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
+[10:56:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[10:56:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[10:56:58] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
+[10:56:58] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[10:56:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[10:56:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:56:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:56:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:56:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:56:59] [Server thread/INFO]: Preparing level "world"
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[10:56:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[10:56:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:57:00] [Server thread/INFO]: Time elapsed: 1129 ms
+[10:57:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:57:01] [Server thread/INFO]: Time elapsed: 211 ms
+[10:57:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:57:01] [Server thread/INFO]: Time elapsed: 111 ms
+[10:57:01] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
+[10:57:01] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[10:57:01] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[10:57:01] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[10:57:01] [Server thread/INFO]: [spark] Starting background profiler...
+[10:57:01] [Server thread/INFO]: Done preparing level "world" (2.826s)
+[10:57:01] [Server thread/INFO]: Running delayed init tasks
+[10:57:02] [Server thread/INFO]: Done (16.882s)! For help, type "help"
+[10:57:29] [User Authenticator #0/INFO]: UUID of player 1eaf_f411s is 038c22be-d95a-3e11-983b-d5dc2fb731c2
+[10:57:29] [Server thread/INFO]: 1eaf_f411s joined the game
+[10:57:30] [Server thread/INFO]: 1eaf_f411s[/[0:0:0:0:0:0:0:1%0]:42098] logged in with entity id 45 at ([world]289.4648566536573, 64.0, 320.23750001192093)
+[10:58:19] [User Authenticator #0/INFO]: UUID of player nuts2609 is dc1a1f72-d475-3953-976b-eb64becbe67f
+[10:58:20] [Server thread/INFO]: nuts2609 joined the game
+[10:58:20] [Server thread/INFO]: nuts2609[/[0:0:0:0:0:0:0:1%0]:35794] logged in with entity id 449 at ([world]1948.9806092286458, -51.1875, 1684.9605803156842)
+[10:58:26] [Server thread/INFO]: 1eaf_f411s issued server command: /function
+[10:59:15] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc with storage
+[10:59:29] [Server thread/INFO]: 1eaf_f411s issued server command: /reload confirm
+[10:59:29] [Server thread/INFO]: 1eaf_f411s: Please note that this command is not supported and may cause issues when using some plugins.
+[10:59:29] [Server thread/INFO]: 1eaf_f411s: If you encounter any issues please use the /stop command to restart your server.
+[10:59:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:59:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:59:29] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[10:59:29] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:59:29] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[10:59:29] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[10:59:29] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
+[10:59:29] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
+[10:59:29] [Server thread/INFO]: Loaded 1290 recipes
+[10:59:29] [Server thread/INFO]: Loaded 1399 advancements
+[10:59:30] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:59:30] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[10:59:30] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
 java.util.ConcurrentModificationException: null
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
 	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
@@ -183,594 +118,173 @@ java.util.ConcurrentModificationException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[06:13:25] [Server thread/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[06:13:25] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AutoTreeChop (1.6.0), Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[06:13:25] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[06:13:25] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
-[06:13:25] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
-[06:13:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[06:13:26] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[06:13:26] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.0
-[06:13:26] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
-[06:13:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:13:26] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
-[06:13:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[06:13:26] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[06:13:26] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[06:13:26] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[06:13:26] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
-[06:13:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:13:26] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:13:27] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[06:13:27] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[06:13:27] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.0
-[06:13:27] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[06:13:27] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
-[06:13:27] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[06:13:27] [Server thread/INFO]: CONSOLE: Reload complete.
-[06:13:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
-[06:13:27] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-4 - Starting...
-[06:13:27] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-4 - Start completed.
-[06:13:27] [Craft Scheduler Thread - 13 - Spawn/WARN]: [Spawn] Unable to check for updates...
-[06:13:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-5 - Starting...
-[06:13:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-5 - Start completed.
-[06:13:29] [Server thread/INFO]: AquaaFinaa has made the advancement [Getting an Upgrade]
-[06:13:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-6 - Starting...
-[06:13:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-6 - Start completed.
-[06:16:15] [Server thread/INFO]: 1eaf_f411s has made the advancement [Acquire Hardware]
-[06:17:33] [Server thread/INFO]: nuts2609 has made the advancement [Stone Age]
-[06:18:06] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @a @s
-[06:18:06] [Server thread/INFO]: [1eaf_f411s: Teleported 3 entities to 1eaf_f411s]
-[06:19:25] [Server thread/INFO]: 1eaf_f411s has made the advancement [Monster Hunter]
-[06:19:34] [Server thread/INFO]: nuts2609 has made the advancement [Sweet Dreams]
-[06:19:34] [Server thread/INFO]: AquaaFinaa has made the advancement [Sweet Dreams]
-[06:19:34] [Server thread/INFO]: 1eaf_f411s has made the advancement [Sweet Dreams]
-[06:19:53] [Server thread/INFO]: 1eaf_f411s has made the advancement [Isn't It Iron Pick]
-[06:21:19] [Server thread/INFO]: AquaaFinaa has made the advancement [Acquire Hardware]
-[06:21:45] [Server thread/INFO]: AquaaFinaa has made the advancement [Isn't It Iron Pick]
-[06:21:55] [Server thread/INFO]: nuts2609 has made the advancement [Getting an Upgrade]
-[06:23:56] [Server thread/INFO]: 1eaf_f411s issued server command: /
-[06:24:15] [Server thread/INFO]: nuts2609 has made the advancement [Acquire Hardware]
-[06:24:41] [Server thread/INFO]: 1eaf_f411s issued server command: /tp AquaaFinaa
-[06:24:41] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to AquaaFinaa]
-[06:24:44] [Server thread/INFO]: AquaaFinaa has made the advancement [Monster Hunter]
-[06:26:41] [Server thread/INFO]: AquaaFinaa has made the advancement [Suit Up]
-[06:27:48] [Server thread/INFO]: 1eaf_f411s issued server command: /difficulty hard
-[06:27:48] [Server thread/INFO]: [1eaf_f411s: The difficulty has been set to Hard]
-[06:29:01] [Server thread/INFO]: 1eaf_f411s was blown up by Creeper
-[06:29:08] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 185 -0.5 329
-[06:29:08] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 185.500000, -0.500000, 329.500000]
-[06:29:18] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative
-[06:29:18] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Creative Mode]
-[06:29:49] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[06:29:49] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[06:31:55] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 247 71.5 225
-[06:31:55] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 247.500000, 71.500000, 225.500000]
-[06:31:58] [Server thread/INFO]: nuts2609 has made the advancement [Monster Hunter]
-[06:32:42] [Server thread/INFO]: nuts2609 has made the advancement [Not Today, Thank You]
-[06:33:51] [Server thread/INFO]: AquaaFinaa has made the advancement [Diamonds!]
-[06:34:38] [Server thread/INFO]: AquaaFinaa has made the advancement [Not Today, Thank You]
-[06:35:48] [Server thread/INFO]: 1eaf_f411s issued server command: /tp AquaaFinaa @s
-[06:35:48] [Server thread/INFO]: [1eaf_f411s: Teleported AquaaFinaa to 1eaf_f411s]
-[06:36:16] [Server thread/INFO]: 1eaf_f411s has made the advancement [Suit Up]
-[06:39:56] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[06:39:56] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[06:39:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:39:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:39:56] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
-[06:39:57] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[06:39:57] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
-[06:39:57] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[06:39:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[06:39:57] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
-[06:39:57] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
-[06:39:57] [Server thread/INFO]: Loaded 1290 recipes
-[06:39:57] [Server thread/ERROR]: Failed to load function tc:install
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[06:39:57] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: tc:install (from file/treecapitator-v4-2.zip)
-[06:39:57] [Server thread/INFO]: Loaded 1399 advancements
-[06:39:57] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:39:57] [Paper Async Command Builder Thread Pool - 5/ERROR]: Caught previously unhandled exception :
-[06:39:57] [Paper Async Command Builder Thread Pool - 5/ERROR]: Paper Async Command Builder Thread Pool - 5
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:541) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:504) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.lambda$sendCommands$5(Commands.java:483) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[06:39:57] [Server thread/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[06:39:57] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AutoTreeChop (1.6.0), Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[06:39:57] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[06:39:57] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
-[06:39:57] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
-[06:39:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[06:39:58] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[06:39:58] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.0
-[06:39:58] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
-[06:39:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:39:58] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
-[06:39:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[06:39:58] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[06:39:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[06:39:58] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[06:39:58] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
-[06:39:58] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:39:58] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[06:39:58] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[06:39:59] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.0
-[06:39:59] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[06:39:59] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
-[06:39:59] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[06:39:59] [Server thread/INFO]: CONSOLE: Reload complete.
-[06:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2526ms or 50 ticks behind
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:39:59] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[06:40:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-7 - Starting...
-[06:40:29] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-7 - Start completed.
-[06:40:30] [Server thread/INFO]: nuts2609 has made the advancement [Isn't It Iron Pick]
-[06:40:30] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-8 - Starting...
-[06:40:30] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-8 - Start completed.
-[06:42:23] [Server thread/INFO]: nuts2609 has made the advancement [Suit Up]
-[06:42:27] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[06:42:27] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[06:42:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:42:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:42:27] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
-[06:42:27] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[06:42:27] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
-[06:42:27] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[06:42:27] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[06:42:27] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
-[06:42:27] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
-[06:42:28] [Server thread/INFO]: Loaded 1290 recipes
-[06:42:28] [Server thread/ERROR]: Failed to load function tc:install
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[06:42:28] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: tc:install (from file/treecapitator-v4-2.zip), tc:install (from file/treecapitator-v4-2)
-[06:42:28] [Server thread/INFO]: Loaded 1399 advancements
-[06:42:28] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:42:28] [Paper Async Command Builder Thread Pool - 7/ERROR]: Caught previously unhandled exception :
-[06:42:28] [Paper Async Command Builder Thread Pool - 7/ERROR]: Paper Async Command Builder Thread Pool - 7
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:541) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:504) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.lambda$sendCommands$5(Commands.java:483) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[06:42:28] [Server thread/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[06:42:28] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AutoTreeChop (1.6.0), Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[06:42:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[06:42:29] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
-[06:42:29] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
-[06:42:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[06:42:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[06:42:29] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.0
-[06:42:29] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
-[06:42:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:42:29] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
-[06:42:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[06:42:29] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[06:42:29] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[06:42:29] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[06:42:30] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
-[06:42:30] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:42:30] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[06:42:30] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:42:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[06:42:30] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.0
-[06:42:30] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[06:42:30] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
-[06:42:30] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[06:42:30] [Server thread/INFO]: CONSOLE: Reload complete.
-[06:42:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2878ms or 57 ticks behind
-[06:42:31] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-9 - Starting...
-[06:42:31] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-9 - Start completed.
-[06:42:59] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-10 - Starting...
-[06:42:59] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-10 - Start completed.
-[06:44:12] [Server thread/INFO]: AquaaFinaa has made the advancement [A Seedy Place]
-[06:45:04] [Server thread/INFO]: 1eaf_f411s has made the advancement [A Seedy Place]
-[06:45:05] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-11 - Starting...
-[06:45:05] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-11 - Start completed.
-[06:51:26] [Server thread/INFO]: 1eaf_f411s issued server command: /tp AquaaFinaa @s
-[06:51:26] [Server thread/INFO]: [1eaf_f411s: Teleported AquaaFinaa to 1eaf_f411s]
-[06:53:25] [Server thread/INFO]: 1eaf_f411s has made the advancement [Hot Stuff]
-[06:55:51] [Server thread/INFO]: nuts2609 has made the advancement [Diamonds!]
-[06:58:00] [Server thread/INFO]: 1eaf_f411s has made the advancement [We Need to Go Deeper]
-[06:58:40] [Server thread/INFO]: 1eaf_f411s has made the advancement [Those Were the Days]
-[06:59:49] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative
-[06:59:49] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Creative Mode]
-[07:00:06] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[07:00:06] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[07:02:14] [Server thread/INFO]: AquaaFinaa has made the advancement [The Parrots and the Bats]
-[07:04:32] [Server thread/INFO]: You whisper to nuts2609: klam ngu
-[07:05:22] [Server thread/INFO]: nuts2609 has made the advancement [Cover Me with Diamonds]
-[07:15:13] [Server thread/INFO]: 1eaf_f411s issued server command: /288 64 339
-[07:15:17] [Async Chat Thread - #2/INFO]: [Not Secure] <1eaf_f411s> 288 64 339
-[07:27:01] [Server thread/INFO]: 1eaf_f411s has made the advancement [Diamonds!]
-[07:28:44] [Server thread/INFO]: nuts2609 has made the advancement [Ice Bucket Challenge]
-[07:32:29] [Server thread/INFO]: AquaaFinaa lost connection: Disconnected
-[07:32:29] [Server thread/INFO]: AquaaFinaa left the game
-[07:33:59] [User Authenticator #2/INFO]: UUID of player AquaaFinaa is 6bbd8f72-e006-3889-98bf-da4aa184a6d1
-[07:34:01] [Server thread/INFO]: AquaaFinaa joined the game
-[07:34:01] [Server thread/INFO]: AquaaFinaa[/[0:0:0:0:0:0:0:1%0]:42138] logged in with entity id 30919 at ([world]289.0593406374951, 66.0, 310.2674143417781)
-[07:34:02] [Server thread/INFO]: nuts2609 issued server command: /modge
-[07:34:04] [Async Chat Thread - #3/INFO]: [Not Secure] <nuts2609> modge
-[07:34:18] [Server thread/INFO]: 1eaf_f411s has made the advancement [The Parrots and the Bats]
-[07:38:00] [Server thread/INFO]: 1eaf_f411s issued server command: /sit
-[07:38:06] [Server thread/INFO]: 1eaf_f411s issued server command: /sit
-[07:38:14] [Server thread/INFO]: nuts2609 issued server command: /sit
-[07:41:24] [Async Chat Thread - #5/INFO]: [Not Secure] <nuts2609> bro tat ca loa
-[07:41:28] [Async Chat Thread - #5/INFO]: [Not Secure] <nuts2609> bro k giai thich not
-[07:41:32] [Async Chat Thread - #5/INFO]: [Not Secure] <1eaf_f411s> chet me bao lam di
-[07:41:37] [Server thread/INFO]: 1eaf_f411s issued server command: /spawn:spawn
-[07:41:45] [Server thread/INFO]: 1eaf_f411s issued server command: /spawn:spawn
-[07:44:28] [Server thread/INFO]: 1eaf_f411s issued server command: /spawn
-[07:44:34] [Server thread/INFO]: 1eaf_f411s issued server command: /spawn:spawn
-[07:45:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[07:45:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[07:45:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:45:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:45:14] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
-[07:45:14] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[07:45:14] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
-[07:45:14] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[07:45:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[07:45:14] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
-[07:45:14] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
-[07:45:14] [Server thread/INFO]: Loaded 1290 recipes
-[07:45:14] [Server thread/ERROR]: Failed to load function tc:install
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown criterion 'minecraft.mined:minecraft.pale_oak_log' at position 48: ...e_oak_log <--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[07:45:14] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: tc:install (from file/treecapitator-v4-2.zip), tc:install (from file/treecapitator-v4-2)
-[07:45:14] [Server thread/INFO]: Loaded 1399 advancements
-[07:45:14] [Paper Async Command Builder Thread Pool - 11/ERROR]: Caught previously unhandled exception :
-[07:45:14] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[07:45:14] [Paper Async Command Builder Thread Pool - 11/ERROR]: Paper Async Command Builder Thread Pool - 11
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:541) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:504) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at net.minecraft.commands.Commands.lambda$sendCommands$5(Commands.java:483) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[07:45:14] [Server thread/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[07:45:14] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - AutoTreeChop (1.6.0), Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
-[07:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[07:45:15] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[07:45:15] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
-[07:45:15] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
-[07:45:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[07:45:15] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[07:45:15] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.0
-[07:45:15] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
-[07:45:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:45:15] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
-[07:45:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[07:45:15] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[07:45:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[07:45:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[07:45:16] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
-[07:45:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[07:45:16] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
-[07:45:16] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[07:45:16] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.0
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[07:45:16] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[07:45:16] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[07:45:17] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
-[07:45:17] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[07:45:17] [Server thread/INFO]: CONSOLE: Reload complete.
-[07:45:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3487ms or 69 ticks behind
-[07:45:17] [Server thread/WARN]: AquaaFinaa moved too quickly! 0.8018799844772957,-1.5625,13.999956108627373
-[07:45:19] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-12 - Starting...
-[07:45:19] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-12 - Start completed.
-[07:45:20] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-13 - Starting...
-[07:45:20] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-13 - Start completed.
-[07:45:31] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-14 - Starting...
-[07:45:31] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-14 - Start completed.
-[07:46:12] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc:unlock
-[07:46:12] [Server thread/INFO]: [1eaf_f411s: Running function tc:unlock]
-[07:46:30] [Server thread/INFO]: nuts2609 has made the advancement [The Parrots and the Bats]
-[07:46:36] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc:config/set_defaults
-[07:46:36] [Server thread/INFO]: [1eaf_f411s: Running function tc:config/set_defaults]
-[07:46:45] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc:config
-[07:46:56] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc:uninstall
-[07:46:57] [Server thread/INFO]: [1eaf_f411s: Running function tc:uninstall]
-[07:47:34] [Server thread/INFO]: nuts2609 has made the advancement [We Need to Go Deeper]
-[07:52:48] [Server thread/INFO]: AquaaFinaa has made the advancement [We Need to Go Deeper]
-[07:53:57] [Server thread/INFO]: AquaaFinaa has completed the challenge [Return to Sender]
-[07:57:10] [Server thread/INFO]: AquaaFinaa has made the advancement [Those Were the Days]
-[07:57:17] [Server thread/INFO]: AquaaFinaa was slain by Piglin Brute
-[07:58:45] [Async Chat Thread - #7/INFO]: [Not Secure] <1eaf_f411s> jeanne d'arc
-[07:59:13] [Server thread/INFO]: AquaaFinaa was slain by Piglin Brute
-[08:02:14] [Server thread/INFO]: AquaaFinaa lost connection: Disconnected
-[08:02:14] [Server thread/INFO]: AquaaFinaa left the game
-[08:09:45] [Server thread/INFO]: nuts2609 has made the advancement [A Terrible Fortress]
-[08:09:59] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative
-[08:09:59] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Creative Mode]
-[08:11:04] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[08:11:04] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[08:11:15] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator
-[08:11:15] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Spectator Mode]
-[08:11:22] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[08:11:22] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[08:11:52] [Server thread/INFO]: 1eaf_f411s was slain by Zombie
-[08:11:54] [Async Chat Thread - #9/INFO]: [Not Secure] <nuts2609> -715 616
-[08:11:57] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1239 147.5 -125
-[08:11:57] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1239.500000, 147.500000, -124.500000]
-[08:12:43] [Server thread/INFO]: 1eaf_f411s has made the advancement [Not Today, Thank You]
-[08:13:04] [Server thread/INFO]: nuts2609 has made the advancement [Into Fire]
-[08:17:08] [Async Chat Thread - #11/INFO]: [Not Secure] <nuts2609> 57
-[08:17:46] [Server thread/INFO]: nuts2609 was doomed to fall
-[08:18:20] [Server thread/INFO]: Villager Villager['Villager'/48244, uuid='d162ab45-f269-421b-ac15-625ca364fb68', l='ServerLevel[world]', x=292.30, y=61.02, z=175.70, cpos=[18, 10], tl=129424, v=true] died, message: 'Villager drowned'
-[08:18:41] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator
-[08:18:41] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Spectator Mode]
-[08:18:48] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[08:18:48] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[08:19:57] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 247 71.5 225
-[08:19:57] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 247.500000, 71.500000, 225.500000]
-[08:20:27] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[08:20:27] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[08:20:50] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1322 63.5 -1299
-[08:20:50] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1322.500000, 63.500000, -1298.500000]
-[08:21:31] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[08:21:37] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[08:21:37] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[08:23:06] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[08:23:06] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[08:23:41] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[08:23:41] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[08:26:27] [Server thread/INFO]: nuts2609 was doomed to fall
-[08:27:27] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[08:27:27] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[08:28:05] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609 @s
-[08:28:05] [Server thread/INFO]: [1eaf_f411s: Teleported nuts2609 to 1eaf_f411s]
-[08:28:33] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[08:28:33] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[08:29:16] [Server thread/INFO]: 1eaf_f411s issued server command: /kill nuts2609
-[08:29:16] [Server thread/INFO]: nuts2609 was killed
-[08:29:16] [Server thread/INFO]: [1eaf_f411s: Killed nuts2609]
-[08:29:55] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[08:29:55] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[08:30:33] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[08:30:33] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[08:31:01] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 247 71.5 225
-[08:31:01] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 247.500000, 71.500000, 225.500000]
-[08:31:05] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609 @s
-[08:31:05] [Server thread/INFO]: [1eaf_f411s: Teleported nuts2609 to 1eaf_f411s]
-[08:32:49] [Server thread/INFO]: nuts2609 lost connection: Disconnected
-[08:32:49] [Server thread/INFO]: nuts2609 left the game
-[08:33:13] [Server thread/INFO]: 1eaf_f411s was blown up by Creeper
-[08:33:32] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode adventure
-[08:33:32] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Adventure Mode]
-[08:33:33] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative
-[08:33:33] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Creative Mode]
-[08:33:52] [User Authenticator #3/INFO]: UUID of player nuts2609 is dc1a1f72-d475-3953-976b-eb64becbe67f
-[08:33:53] [Server thread/INFO]: nuts2609 joined the game
-[08:33:53] [Server thread/INFO]: nuts2609[/[0:0:0:0:0:0:0:1%0]:60132] logged in with entity id 56502 at ([world_nether]15.201678365509173, 69.0, 128.8572969177707)
-[08:33:56] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[08:33:56] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[08:34:40] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode adventure
-[08:34:40] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Adventure Mode]
-[08:34:41] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[08:34:41] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[08:36:03] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[08:36:03] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[08:36:36] [Server thread/INFO]: 1eaf_f411s issued server command: /give @s minecraft:diamond_pickaxe
-[08:36:36] [Server thread/INFO]: [1eaf_f411s: Gave 1 [Diamond Pickaxe] to 1eaf_f411s]
-[08:45:46] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609 @s
-[08:45:46] [Server thread/INFO]: [1eaf_f411s: Teleported nuts2609 to 1eaf_f411s]
-[08:49:14] [Server thread/INFO]: 1eaf_f411s lost connection: Disconnected
-[08:49:14] [Server thread/INFO]: 1eaf_f411s left the game
-[09:01:18] [Server thread/INFO]: nuts2609 fell from a high place
-[09:01:37] [Server thread/INFO]: nuts2609 lost connection: Disconnected
-[09:01:37] [Server thread/INFO]: nuts2609 left the game
-[10:14:20] [User Authenticator #4/INFO]: UUID of player 1eaf_f411s is 038c22be-d95a-3e11-983b-d5dc2fb731c2
-[10:14:20] [Server thread/INFO]: 1eaf_f411s joined the game
-[10:14:20] [Server thread/INFO]: 1eaf_f411s[/[0:0:0:0:0:0:0:1%0]:53834] logged in with entity id 65833 at ([world]287.2074754355985, 64.80257356872595, 311.1903416389149)
-[10:14:49] [Server thread/INFO]: 1eaf_f411s issued server command: /give @s hopper 4
-[10:14:49] [Server thread/INFO]: [1eaf_f411s: Gave 4 [Hopper] to 1eaf_f411s]
-[10:17:13] [User Authenticator #5/INFO]: UUID of player nuts2609 is dc1a1f72-d475-3953-976b-eb64becbe67f
-[10:17:14] [Server thread/INFO]: nuts2609 joined the game
-[10:17:14] [Server thread/INFO]: nuts2609[/[0:0:0:0:0:0:0:1%0]:52956] logged in with entity id 66520 at ([world]1992.418323216787, -21.0, 1670.699999988079)
-[10:17:47] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator nuts2609
-[10:17:47] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Spectator Mode]
-[10:19:36] [Server thread/INFO]: 1eaf_f411s issued server command: /
-[10:19:49] [Server thread/INFO]: 1eaf_f411s issued server command: /give nuts2609 minecraft:ender_eye 291783
-[10:19:55] [Server thread/INFO]: 1eaf_f411s issued server command: /give nuts2609 minecraft:ender_eye 6400
-[10:19:55] [Server thread/INFO]: [1eaf_f411s: Gave 6400 [Eye of Ender] to nuts2609]
-[10:20:00] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[10:20:28] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[10:20:28] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[10:20:40] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode creative nuts2609
-[10:20:40] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Creative Mode]
-[10:25:09] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival nuts2609
-[10:25:09] [Server thread/INFO]: [1eaf_f411s: Set nuts2609's game mode to Survival Mode]
-[10:25:14] [Server thread/INFO]: 1eaf_f411s issued server command: /op nuts2609
-[10:25:14] [Server thread/INFO]: [1eaf_f411s: Made nuts2609 a server operator]
-[10:25:22] [Server thread/INFO]: 1eaf_f411s issued server command: /deop nuts2609
-[10:25:22] [Server thread/INFO]: [1eaf_f411s: Made nuts2609 no longer a server operator]
-[10:25:40] [Server thread/INFO]: nuts2609 has made the advancement [Eye Spy]
-[10:27:45] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609
-[10:27:45] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to nuts2609]
-[10:27:45] [Server thread/INFO]: 1eaf_f411s has made the advancement [Eye Spy]
-[10:32:49] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode spectator
-[10:32:49] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Spectator Mode]
-[10:33:23] [Server thread/INFO]: 1eaf_f411s issued server command: /gamemode survival
-[10:33:23] [Server thread/INFO]: [1eaf_f411s: Set own game mode to Survival Mode]
-[10:34:17] [Server thread/INFO]: 1eaf_f411s was blown up by Creeper
-[10:34:22] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1934 -41.5 1685
-[10:34:22] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1934.500000, -41.500000, 1685.500000]
-[10:36:15] [Server thread/INFO]: 1eaf_f411s issued server command: /tp nuts2609
-[10:36:15] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to nuts2609]
-[10:37:22] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 1946 -53.5 1679
-[10:37:22] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 1946.500000, -53.500000, 1679.500000]
-[10:37:26] [Server thread/INFO]: 1eaf_f411s issued server command: /tp @s 247 71.5 225
-[10:37:26] [Server thread/INFO]: [1eaf_f411s: Teleported 1eaf_f411s to 247.500000, 71.500000, 225.500000]
-[10:37:37] [Server thread/INFO]: nuts2609 has made the advancement [Hot Stuff]
-[10:38:38] [Server thread/INFO]: 1eaf_f411s lost connection: Disconnected
-[10:38:38] [Server thread/INFO]: 1eaf_f411s left the game
-[10:38:41] [Server thread/INFO]: Stopping the server
-[10:38:41] [Server thread/INFO]: Stopping server
-[10:38:41] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
-[10:38:41] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[10:38:41] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.6.0
-[10:38:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[10:38:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[10:38:41] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
-[10:38:41] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
-[10:38:41] [Server thread/INFO]: Saving players
-[10:38:41] [Server thread/INFO]: nuts2609 lost connection: Server closed
-[10:38:41] [Server thread/INFO]: nuts2609 left the game
-[10:38:41] [Server thread/INFO]: Saving worlds
-[10:38:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:38:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1157 block chunks, 1059 entity chunks, 0 poi chunks in world 'world' in 1.21s
-[10:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 100 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[10:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:38:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.16s
-[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:59:30] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[10:59:30] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[10:59:30] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[10:59:30] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
+[10:59:30] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
+[10:59:30] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[10:59:30] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[10:59:30] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[10:59:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:59:30] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
+[10:59:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[10:59:30] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[10:59:31] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[10:59:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[10:59:31] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
+[10:59:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[10:59:31] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
+[10:59:31] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[10:59:31] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[10:59:31] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[10:59:31] [Server thread/INFO]: 1eaf_f411s: Reload complete.
+[10:59:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2657ms or 53 ticks behind
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[10:59:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[10:59:50] [Server thread/INFO]: 1eaf_f411s issued server command: /reload confirm
+[10:59:50] [Server thread/INFO]: 1eaf_f411s: Please note that this command is not supported and may cause issues when using some plugins.
+[10:59:50] [Server thread/INFO]: 1eaf_f411s: If you encounter any issues please use the /stop command to restart your server.
+[10:59:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:59:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:59:51] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[10:59:51] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:59:51] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[10:59:51] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[10:59:51] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
+[10:59:51] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
+[10:59:51] [Server thread/INFO]: Loaded 1290 recipes
+[10:59:51] [Server thread/INFO]: Loaded 1399 advancements
+[10:59:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:59:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[10:59:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[10:59:51] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[10:59:51] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
+[10:59:51] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
+[10:59:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[10:59:52] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[10:59:52] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[10:59:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:59:52] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
+[10:59:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[10:59:52] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[10:59:52] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[10:59:52] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
+[10:59:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[10:59:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[10:59:53] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
+[10:59:53] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[10:59:53] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[10:59:53] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[10:59:53] [Server thread/INFO]: 1eaf_f411s: Reload complete.
+[10:59:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[10:59:53] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:02:01] [Server thread/INFO]: 1eaf_f411s issued server command: /reload confirm
+[11:02:01] [Server thread/INFO]: 1eaf_f411s: Please note that this command is not supported and may cause issues when using some plugins.
+[11:02:01] [Server thread/INFO]: 1eaf_f411s: If you encounter any issues please use the /stop command to restart your server.
+[11:02:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:02:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:02:02] [Server thread/INFO]: [GSit] Disabling GSit v2.2.1
+[11:02:02] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[11:02:02] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[11:02:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[11:02:02] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.3.2
+[11:02:02] [Server thread/INFO]: [Spawn] Disabling Spawn v2.4.1
+[11:02:02] [Server thread/INFO]: Loaded 1290 recipes
+[11:02:02] [Server thread/INFO]: Loaded 1399 advancements
+[11:02:02] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:02:03] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[11:02:03] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Chunky (1.4.28), GSit (2.2.1), SkinsRestorer (15.6.1), Spawn (2.4.1), Veinminer (2.3.2)
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.8.0/kotlinx-serialization-json-1.8.0.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.8.0/kotlinx-serialization-json-jvm-1.8.0.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.8.0/kotlinx-serialization-core-jvm-1.8.0.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.10.1/kotlinx-coroutines-core-1.10.1.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[11:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/mc-server/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[11:02:03] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v2.4.1
+[11:02:03] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.3.2
+[11:02:03] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[11:02:03] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[11:02:03] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[11:02:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:02:03] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.3.2
+[11:02:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[11:02:03] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[11:02:03] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:02:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[11:02:03] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.3.2 -> Latest: 2.4.1
+[11:02:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:02:04] [Server thread/INFO]: [Spawn] Enabling Spawn v2.4.1
+[11:02:04] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[11:02:04] [Server thread/INFO]: [GSit] Enabling GSit v2.2.1
+[11:02:04] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[11:02:04] [Server thread/INFO]: 1eaf_f411s: Reload complete.
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:02:04] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:02:40] [Server thread/INFO]: 1eaf_f411s issued server command: /function tc:config/animation/disable
+[11:02:40] [Server thread/INFO]: [1eaf_f411s: Running function tc:config/animation/disable]
