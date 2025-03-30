@@ -20,6 +20,20 @@
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {
+            "type": "minecraft:generic.scale",
+            "id": "minecraft:",
+            "amount": 0.25,
+            "operation": "add_multiplied_base",
+            "slot": "armor"
+          },
+          {
+            "type": "minecraft:generic.max_health",
+            "id": "minecraft:",
+            "amount": 10,
+            "operation": "add_value",
+            "slot": "armor"
+          },
+          {
             "type": "minecraft:generic.armor_toughness",
             "id": "minecraft:",
             "amount": 0.5,
