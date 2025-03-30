@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "minecraft:netherite_block"
+  },
+  "template": {
+    "item": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_name": "\"Sword of the Ancient Builders\"",
+      "minecraft:rarity": "epic"
+    },
+    "count": 1
+  }
+}
