@@ -1,0 +1,255 @@
+{
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "purpur:raw_copper_block_smelting_unlock": {
+    "criteria": {
+      "requirement": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2025-05-28 11:01:38 +0000",
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_recipe": "2025-05-28 10:58:09 +0000",
+      "has_compass": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "purpur:raw_iron_block_smelting_unlock": {
+    "criteria": {
+      "requirement": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_recipe": "2025-05-28 10:58:09 +0000",
+      "has_compass": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2025-05-28 10:57:39 +0000"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2025-05-28 10:57:39 +0000"
+    },
+    "done": true
+  },
+  "bro:not_wearing_skull": {
+    "criteria": {
+      "equipment_tracking": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_log": "2025-05-28 10:58:09 +0000",
+      "has_recipe": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "purpur:glass_from_blasting_unlock": {
+    "criteria": {
+      "requirement": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "prairie": "2025-05-28 10:57:39 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 10:57:39 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "kattersstructures:root": {
+    "criteria": {
+      "requirement": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "prairie": "2025-05-28 10:57:39 +0000"
+    },
+    "done": false
+  },
+  "purpur:raw_gold_block_smelting_unlock": {
+    "criteria": {
+      "requirement": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_recipe": "2025-05-28 10:58:09 +0000",
+      "has_cobweb": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2025-05-28 10:57:38 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 10:57:39 +0000"
+    },
+    "done": false
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_cracked_stone_bricks": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 11:00:42 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 10:57:39 +0000"
+    },
+    "done": false
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2025-05-28 10:58:09 +0000",
+      "inv_changed-diamond": "2025-05-28 10:58:09 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-28 10:57:39 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
