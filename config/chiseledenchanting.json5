@@ -1,8 +1,0 @@
-{
-	"allowBookEnchanting": true,
-	"probabilityType": "EXPONENTIAL",
-	"firstBookProbability": 0.25,
-	"tenthBookProbability": 0.009999999776482582,
-	"booksNecessaryForPower": 0,
-	"substituteEnchantmentChance": 0.0
-}

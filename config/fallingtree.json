@@ -8,6 +8,7 @@
     "breakMode": "INSTANTANEOUS",
     "detectionMode": "WHOLE_TREE",
     "maxScanSize": 500,
+    "minSize": 0,
     "maxSize": 100,
     "maxLeafDistanceFromLog": 15,
     "maxSizeAction": "ABORT",
