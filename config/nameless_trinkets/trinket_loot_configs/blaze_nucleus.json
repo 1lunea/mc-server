@@ -1,0 +1,182 @@
+{
+  "item": "blaze_nucleus",
+  "chance": 0.01,
+  "loot_tables": [
+    {
+      "namespace": "minecraft",
+      "path": "chests/spawn_bonus_chest"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/end_city_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/simple_dungeon"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_weaponsmith"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_toolsmith"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_armorer"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_cartographer"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_mason"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_shepherd"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_butcher"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_fletcher"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_fisher"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_tannery"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_temple"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_desert_house"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_plains_house"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_taiga_house"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_snowy_house"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_savanna_house"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/abandoned_mineshaft"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/nether_bridge"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_library"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_crossing"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_corridor"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/desert_pyramid"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/jungle_temple"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/jungle_temple_dispenser"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/igloo_chest"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/woodland_mansion"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/underwater_ruin_small"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/underwater_ruin_big"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/buried_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/shipwreck_map"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/shipwreck_supply"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/shipwreck_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/pillager_outpost"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_other"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_bridge"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_hoglin_stable"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/ancient_city"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/ancient_city_ice_box"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/ruined_portal"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "gameplay/cat_morning_gift"
+    }
+  ]
+}

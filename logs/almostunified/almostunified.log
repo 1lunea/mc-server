@@ -1,0 +1,10 @@
+[05:14:18.758] [INFO]: Loading config 'startup.json'.
+[05:14:21.254] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
+[05:14:25.031] [WARN]: Reload detected. Reconstructing runtime.
+[05:14:25.032] [INFO]: Loading config 'debug.json'.
+[05:14:25.037] [INFO]: Loading config 'placeholders.json'.
+[05:14:25.042] [INFO]: Loading config 'tags.json'.
+[05:14:25.906] [INFO]: Loading config 'duplicates.json'.
+[05:14:25.909] [INFO]: Recipe count: 5425
+[05:14:25.997] [WARN]: Could not detect crafting recipe output for recipe 'supplementaries:sack_3'.
+[05:14:26.082] [INFO]: Recipe count afterwards: 5411 (done in 173.0 ms)
